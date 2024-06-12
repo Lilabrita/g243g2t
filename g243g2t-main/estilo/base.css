@@ -1,0 +1,28 @@
+@import url(reset.css);
+.barra{
+    width: 100vw;
+}
+.barra_conteudo{
+    background-color: rgb(155, 203, 245);
+    width: 100vw;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    color: black;
+    box-shadow: 0px 5px 6px rgb(56, 109, 155);
+}
+.btn{
+    background-color:rgb(181, 221, 255);
+    cursor: pointer;
+}
+.login button{
+    border-radius: 5px;
+}
+.barra_info{
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+}
